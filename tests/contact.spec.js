@@ -8,7 +8,7 @@ test('Safora Contact Us form automation', async ({ page }) => {
     timeout: 60000
   });
 
-  // 2. Click Contact (if navigation exists)
+  // 2. Click Contact
   await page.getByRole('link', { name: 'Contact Us' }).click();
 
   // 3. Fill form fields
